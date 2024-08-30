@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar-container">
+        <!-- logo -->
+        <div class="logo-container">
+            <p class="logo">LOGO</p>
+        </div>
+
+        <!-- form button -->
+         <div class="btn-container">
+            <button class="btn open-btn">Open</button>
+         </div>
+    </nav>
+
+    <section id="form-section">
+        <form action="submit" class="form-container">
+            <label for="title">Image Title</label>
+            <input type="text" name="title" id="form-name" placeholder="Enter title">
+            
+            <label for="alt-text">Alt Text</label>
+            <input type="text" name="alt-text" id="alt-text" placeholder="Enter Alt text">
+            
+            <label for="url">Image Url</label>
+            <input type="text" name="url" id="url" placeholder="Provide Url">
+
+            <label for="description">Image description</label>
+            <textarea name="description" id="description" rows="5"></textarea>
+            <div>
+                <button type="submit" class="btn ">Submit</button>
+                <button class="btn cancel-btn">Cancel</button>
+            </div>
+            
+        </form>
+
+     </section>
+
+     <section id="image-gallery">
+        
+        
+     </section>
+
+     <script src="index.js"></script>
+</body>
+</html>
